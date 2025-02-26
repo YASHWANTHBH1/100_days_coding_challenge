@@ -1,4 +1,6 @@
 # leetcode : 1
+# https://leetcode.com/problems/two-sum/
+# Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 #enumerate(): The enumerate() function in Python is used to iterate over an iterable while keeping track of the index of each element.
 #  It returns an index-element pair for each iteration.
 
@@ -19,4 +21,3 @@ solution=Solution()
 
 result=solution.twosum(nums,target)
 print(result)
-    
