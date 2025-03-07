@@ -1,5 +1,5 @@
 # Link: https://leetcode.com/problems/same-tree/
-#
+#leetcode: 100. Same Tree
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -15,3 +15,5 @@ class Solution(object):
         if p.val != q.val:
             return False
         return (self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right))
+    # Time complexity: O(n)
+    # Space complexity: O(n)
