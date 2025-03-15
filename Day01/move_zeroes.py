@@ -17,3 +17,5 @@ solution = Solution()
 
 # Calling moveZeroes function and printing result
 print("Output:", solution.moveZeroes(nums))
+# Time complexity: O(n)
+# Space complexity: O(1)

@@ -21,3 +21,5 @@ solution=Solution()
 
 result=solution.twosum(nums,target)
 print(result)
+#time complexity:O(n)
+#space complexity:O(n)

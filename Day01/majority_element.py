@@ -16,3 +16,5 @@ solution = Solution()
 
 # Calling majorityElement function and printing result
 print("Majority Element:", solution.majorityElement(nums))
+#time complexity:O(n)
+#space complexity:O(1)

@@ -23,3 +23,5 @@ result = solution.pivotIndex(nums)
 
 # Printing the result
 print("Pivot Index:", result)
+# Time complexity: O(n)
+# Space complexity: O(1) excluding the output variable
